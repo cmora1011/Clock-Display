@@ -93,7 +93,7 @@ public class ClockDisplay
  displayString+= ":";
  displayString+= minutes.getDisplayValue();
  
- if (hours.getValue() < 120) {
+ if (hours.getValue() < 12) {
     displayString+= "AM";
     }
 else {
